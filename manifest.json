@@ -1,0 +1,7 @@
+{
+ "name": "Baab Universal",
+ "short_name": "Baab",
+ "start_url": "/",
+ "display": "standalone",
+ "background_color": "#000000"
+}
