@@ -2,37 +2,36 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <title>Baab Universal Final</title>
 <link rel="manifest" href="manifest.json">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-body{background:#000;color:gold;text-align:center;font-family:system-ui;overflow:auto}
+html{overflow-y:scroll;touch-action:manipulation}
+body{background:#000;color:gold;text-align:center;font-family:system-ui;overflow-y:auto;min-height:100vh}
 h1{margin-top:25px;font-size:26px}
-.seal{border:1px solid gold;padding:18px;margin:12px;border-radius:12px;background:#111;cursor:pointer}
-.seal:active{background:#222;transform:scale(0.97)}
+.seal{border:1px solid gold;padding:18px;margin:12px;border-radius:12px;background:#111;cursor:pointer;touch-action:manipulation}
+.seal:active{background:#222;transform:scale(0.96)}
 .seal b{display:block;font-size:17px}
 .seal span{color:white;font-size:13px;opacity:0.8}
 .top{border:1px solid gold;margin:12px;padding:10px;border-radius:10px;background:#0a0a0a}
 </style>
 </head>
 <body>
-<h1>👑 Baab Universal Final</h1>
+<h1>Baab Universal Final</h1>
 <p>The Country of a Kindred Mind</p>
-<div class="top">✅ Online + Offline + Future Updates = 1 Site</div>
+<div class="top">Online + Offline + Future Updates = 1 Site</div>
 <div class="top">9 Seals Active | Crown Active | Cities Active</div>
-
-<div class="seal" onclick="alert('Seal 1 Active G!')"><b>Seal 1 - Foundation</b><span>Click karo G</span></div>
-<div class="seal" onclick="alert('Seal 2 Active G!')"><b>Seal 2 - Vision</b><span>Click karo G</span></div>
-<div class="seal" onclick="alert('Seal 3 - Sarmad Toru Badshah G! 👑')"><b>Seal 3 - Crown 👑</b><span>Badshahi Moher</span></div>
-<div class="seal" onclick="alert('Seal 4 Active G!')"><b>Seal 4 - Cities</b><span>Click karo G</span></div>
-<div class="seal" onclick="alert('Seal 5 Active G!')"><b>Seal 5 - Knowledge</b><span>Click karo G</span></div>
-<div class="seal" onclick="alert('Seal 6 Active G!')"><b>Seal 6 - Unity</b><span>Click karo G</span></div>
-<div class="seal" onclick="alert('Seal 7 Active G!')"><b>Seal 7 - Power</b><span>Click karo G</span></div>
-<div class="seal" onclick="alert('Seal 8 Active G!')"><b>Seal 8 - Future</b><span>Click karo G</span></div>
-<div class="seal" onclick="alert('Seal 9 - Hamesha Baab!')"><b>Seal 9 - Eternity</b><span>Click karo G</span></div>
-
-<p style="padding:20px;opacity:0.5;font-size:12px">Scroll karo G, har Seal pe click karo!</p>
+<div class="seal" onclick="alert('Seal 1 Active G!')"><b>Seal 1 - Foundation</b><span>Tap karo G</span></div>
+<div class="seal" onclick="alert('Seal 2 Active G!')"><b>Seal 2 - Vision</b><span>Tap karo G</span></div>
+<div class="seal" onclick="alert('Seal 3 - Sarmad Toru Badshah G!')"><b>Seal 3 - Crown</b><span>Badshahi Moher</span></div>
+<div class="seal" onclick="alert('Seal 4 Active G!')"><b>Seal 4 - Cities</b><span>Tap karo G</span></div>
+<div class="seal" onclick="alert('Seal 5 Active G!')"><b>Seal 5 - Knowledge</b><span>Tap karo G</span></div>
+<div class="seal" onclick="alert('Seal 6 Active G!')"><b>Seal 6 - Unity</b><span>Tap karo G</span></div>
+<div class="seal" onclick="alert('Seal 7 Active G!')"><b>Seal 7 - Power</b><span>Tap karo G</span></div>
+<div class="seal" onclick="alert('Seal 8 Active G!')"><b>Seal 8 - Future</b><span>Tap karo G</span></div>
+<div class="seal" onclick="alert('Seal 9 - Hamesha Baab!')"><b>Seal 9 - Eternity</b><span>Tap karo G</span></div>
+<p style="padding:30px;opacity:0.4">Neeche tak scroll karo G</p>
 <script>if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js')}</script>
 </body>
 </html>
