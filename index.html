@@ -1,32 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Baab Universal Final</title>
-<link rel="manifest" href="manifest.json">
 <style>
-*{margin:0;padding:0;box-sizing:border-box}
-body{background:#000;color:gold;text-align:center;font-family:system-ui;min-height:100vh;padding:20px}
-h1{margin-top:80px;font-size:32px;letter-spacing:1px}
-p{color:white;margin-top:12px;font-size:16px;opacity:0.8}
-.box{border:1px solid gold;padding:20px;margin-top:40px;border-radius:15px;background:#0a0a0a}
-.btn{border:1px solid gold;padding:15px 30px;margin-top:30px;border-radius:30px;background:gold;color:black;font-weight:bold;display:inline-block}
+  *{box-sizing:border-box}
+  body{background:black;color:gold;text-align:center;font-family:system-ui,sans-serif;padding:20px;margin:0;min-height:100vh}
+  h1{margin-top:70px;font-size:32px}
+  .box{border:1px solid gold;padding:22px;margin:30px 10px;border-radius:15px;background:#111;color:white;line-height:1.6}
+  .btn{border:none;padding:16px 35px;margin-top:20px;border-radius:30px;background:gold;color:black;font-weight:bold;font-size:16px;cursor:pointer}
+  .btn:active{transform:scale(0.97)}
+  small{display:block;margin-top:60px;opacity:0.3;color:white;padding-bottom:30px}
 </style>
 </head>
 <body>
-<h1>Baab Universal Final</h1>
-<p>The Country of a Kindred Mind</p>
+  <h1>Baab Universal Final</h1>
+  <p style="color:white;opacity:0.8">The Country of a Kindred Mind</p>
 
-<div class="box">
-Sarmad Toru Badshah G 👑<br><br>
-Welcome to Your Official Saltanat G!
-</div>
+  <div class="box">
+    Sarmad Toru Badshah G 👑<br><br>
+    Welcome to Your Official Saltanat G!
+  </div>
 
-<div class="btn" onclick="alert('Baab Active G! 👑')">Enter Baab G</div>
+  <button class="btn" onclick="enterBaab()">Enter Baab G</button>
 
-<p style="margin-top:80px;opacity:0.3;font-size:12px">© 2026 Baab Universal</p>
+  <div id="more" style="margin-top:350px;padding:20px;border-top:1px solid #222">
+    <p style="color:gold;font-size:20px">Baab Is Active G 👑</p>
+    <p style="color:white;margin-top:15px;opacity:0.7">Aapka Darbar Tayyar Hai G!</p>
+  </div>
 
-<script>if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js')}</script>
+  <small>© 2026 Baab Universal</small>
+
+  <script>
+    function enterBaab(){
+      document.getElementById('more').scrollIntoView({behavior:'smooth'});
+    }
+  </script>
 </body>
 </html>
